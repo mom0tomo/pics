@@ -1,9 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Segment from './Segment';
-
-const App = () => {
-	return <div>Hi </div>;
-};
+import App from './components/App';
 
 ReactDOM.render(<App />, document.querySelector('#root'));
