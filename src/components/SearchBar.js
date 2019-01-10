@@ -1,13 +1,12 @@
-import React from 'react';
+import React from 'react'
 
 class SearchBar extends React.Component {
-	state = { term: 'Hi, there!' };
+	state = { term: 'Hi, there!' }
 
 	onFormSubmit = (event) => {
-		event.preventDefault();
-
-		console.log(this.state.term);
-	};
+		event.preventDefault()
+		console.log(this.state.term)
+	}
 
 	render() {
 		return (
@@ -28,4 +27,4 @@ class SearchBar extends React.Component {
 	}
 }
 
-export default SearchBar;
+export default SearchBar
